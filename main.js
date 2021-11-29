@@ -17,11 +17,7 @@ wa.create({
   logConsole: false,
   popup: true,
   qrTimeout: 60,
-  multiDevice: false,
-  maxChats: 2,
-  maxMessages: 2,
-  throwErrorOnTosBlock: true,
-  throwOnExpiredSessionData: true
+  multiDevice: false
 })
 .then(async client => {
   let grupKelasPublic = process.env["GCWITHGURU"];
