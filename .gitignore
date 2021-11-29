@@ -6,3 +6,4 @@ node_modules
 logs
 .node-persist
 ^(_IGNORE_).*
+(_IGNORE_).*
