@@ -1,0 +1,19 @@
+{
+  "name": "gckelaswa",
+  "version": "0.0.1",
+  "main": "main.js",
+  "private": true,
+  "author": "ray",
+  "license": "MIT",
+  "scripts": {
+    "start": "clear && node .",
+    "restart": "clear && pm2 reload gcwakelas && pm2 logs gcwakelas"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.24.2",
+    "common-tags": "^1.8.2",
+    "date-holidays": "^3.12.2",
+    "dotenv": "^10.0.0",
+    "node-schedule": "^2.1.0"
+  }
+}

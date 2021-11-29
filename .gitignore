@@ -1,0 +1,8 @@
+*.data.json
+package-lock.json
+url.txt
+.env
+node_modules
+logs
+.node-persist
+^(_IGNORE_).*
